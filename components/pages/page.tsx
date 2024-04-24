@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ImageCard: React.FC = () => {
   return (
-    <div>
+    <div className="border rounded-md p-2">
       <Image src="/React.png" alt="React" width={782} height={400} />
       <p className="mt-2 text-center text-slate-700">React</p>
     </div>

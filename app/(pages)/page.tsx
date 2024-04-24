@@ -14,6 +14,8 @@ const Page: NextPage = () => {
       <div className="mt-6">
         <div className="grid gap-4 grid-cols-3">
           <ImageCard />
+          <ImageCard />
+          <ImageCard />
         </div>
       </div>
     </>
