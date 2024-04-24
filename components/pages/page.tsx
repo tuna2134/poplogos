@@ -1,10 +1,15 @@
 import Image from "next/image";
 
-const ImageCard: React.FC = () => {
+interface ImageCardProps {
+  src: string;
+  name: string;
+}
+
+const ImageCard: React.FC<ImageCardProps> = ({ src, name }) => {
   return (
     <div className="border rounded-md p-2 shadow">
-      <Image src="/React.png" alt="React" width={782} height={400} />
-      <p className="mt-2 text-center text-slate-700">React</p>
+      <Image src={src} alt={name} width={782} height={400} />
+      <p className="mt-2 text-center text-slate-700">{name}</p>
     </div>
   )
 };

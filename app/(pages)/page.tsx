@@ -1,8 +1,9 @@
 import ImageCard from "@/components/pages/page";
+import { getAllLogos } from "@/libs/Logo";
 import { NextPage } from "next";
-import Image from "next/image";
 
-const Page: NextPage = () => {
+const Page: NextPage = async () => {
+  const logos = await getAllLogos();
   return (
     <>
       <div>
@@ -13,9 +14,12 @@ const Page: NextPage = () => {
       </div>
       <div className="mt-6">
         <div className="grid gap-4 grid-cols-3">
-          <ImageCard />
-          <ImageCard />
-          <ImageCard />
+          <ImageCard src="/React.png" name="React" />
+          <ImageCard src="/React.png" name="React" />
+          <ImageCard src="/React.png" name="React" />
+          {logos.map((logo, index) => (
+            <ImageCard key={index} src={`/ServiceLogos/${logo.name}/${logo.images[0]}`} name={logo.name} />
+          ))}
         </div>
       </div>
     </>
