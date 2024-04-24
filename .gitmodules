@@ -1,0 +1,3 @@
+[submodule "public/ServiceLogos"]
+	path = public/ServiceLogos
+	url = https://github.com/SAWARATSUKI/ServiceLogos
