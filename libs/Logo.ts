@@ -7,7 +7,7 @@ export async function getLogoName(): Promise<string[]> {
   const logos = logoDir.filter((name) => {
     const stat = fs.statSync(`${baseDir}/${name}`);
     // console.log(stat.isDirectory());
-    return stat.isDirectory() && !name.startsWith(".git");
+    return stat.isDirectory() && !name.startsWith(".git") && name !== "docs";
   });
   return logos;
 }
