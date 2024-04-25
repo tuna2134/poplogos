@@ -13,7 +13,7 @@ const Page: NextPage = async () => {
         </p>
       </div>
       <div className="mt-6">
-        <div className="grid gap-4 grid-cols-3">
+        <div className="grid gap-4 grid-cols-1 md:grid-cols-3">
           {logos.map((logo, index) => (
             <ImageCard key={index} src={`/ServiceLogos/${logo.name}/${logo.images[0]}`} name={logo.name} />
           ))}
