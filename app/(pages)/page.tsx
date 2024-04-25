@@ -15,7 +15,7 @@ const Page: NextPage = async () => {
       <div className="mt-6">
         <div className="grid gap-4 grid-cols-1 md:grid-cols-3">
           {logos.map((logo, index) => (
-            <ImageCard key={index} src={`/ServiceLogos/${logo.name}/${logo.images[0]}`} name={logo.name} />
+            <ImageCard key={index} src={`/ServiceLogos/${logo.path}/${logo.images[0]}`} name={logo.name} />
           ))}
         </div>
       </div>

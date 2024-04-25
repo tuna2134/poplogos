@@ -1,0 +1,202 @@
+logos:
+  Angular:
+    name: Angular
+    description: |
+      データがありません。
+  ArchLinux:
+    name: ArchLinux
+    description: |
+      ArchLinuxはLinuxディストロビューションです。
+  C:
+    name: C
+    description: |
+      Cはコンパイル言語です。
+  C++:
+    name: C++
+    description: |
+      Not found...
+  CS:
+    name: C#
+    description: |
+      C#はマイクロソフト様が開発された言語である。
+  C_CS_CPP:
+    name: C, C++, C#
+    description: |
+      Not found...
+  Clion:
+    name: Clion
+    description: |
+      Not found...
+  Cloudflare:
+    name: Cloudflare
+    description: |
+      CloudFlareはCDNを提供する会社で、クラウド型WAFを提供している。
+  Cobol:
+    name: Cobol
+    description: |
+      Not found...
+  Crowdstrike:
+    name: Crowdstrike
+    description: |
+      Not found...
+  FORTRAN:
+    name: FORTRAN
+    description: |
+      Not found...
+  Figma:
+    name: Figma
+    description: |
+      Not found...
+  FlipperZero:
+    name: FlipperZero
+    description: |
+      Not found...
+  Flutter:
+    name: Flutter
+    description: |
+      Not found...
+  GitHub:
+    name: GitHub
+    description: |
+      GitHubはGitリポジトリを提供するサービスです。
+  GitLab:
+    name: GitLab
+    description: |
+      GitLabはGitHubと同様のサービスを提供しています。
+  Gnuemacs:
+    name: Gnuemacs
+    description: |
+      以下略
+  Go:
+    name: Go
+    description: |
+      以下略
+  Haskell:
+    name: Haskell
+    description: |
+      以下略
+  Hono:
+    name: Hono
+    description: |
+      以下略
+  Html:
+    name: Html
+    description: |
+      以下略
+  Htmx:
+    name: Htmx
+    description: |
+      以下略
+  IamSeries:
+    name: 私は~シリーズ
+    description: |
+      以下略
+  Java:
+    name: Java
+    description: |
+      以下略
+  Juniper:
+    name: Juniper
+    description: |
+      以下略
+  Kotlin:
+    name: Kotlin
+    description: |
+      以下略
+  Laravel:
+    name: Laravel
+    description: |
+      以下略
+  Mui:
+    name: Mui
+    description: |
+      以下略
+  Next.js:
+    name: Next.js
+    description: |
+      実はこのサイトに使われている。
+  Node.js:
+    name: Node.js
+    description: |
+      サーバーサイドで使えるJavaScriptのランタイム
+  Photoshop:
+    name: Photoshop
+    description: |
+      以下略
+  Python:
+    name: Python
+    description: |
+      以下略
+  Qwik.js:
+    name: Qwik.js
+    description: |
+      以下略
+  RaspberryPi:
+    name: RaspberryPi
+    description: |
+      以下略
+  React:
+    name: React
+    description: |
+      以下略
+  RhineLab:
+    name: RhineLab
+    description: |
+      以下省略
+  Rider:
+    name: Rider
+    description: 
+  Rstudio:
+    name: Rstudio
+    description: 
+  Ruby:
+    name: Ruby
+    description:
+  Rust:
+    name: Rust
+    description:
+  Streamloots:
+    name: Streamloots
+    description:
+  Swift:
+    name: Swift
+    description: 
+  Tailwindcss:
+    name: Tailwindcss
+    description:
+  Teamspeak:
+    name: Teamspeak
+    description: 
+  Twitter:
+    name: Twitter
+    description:
+  TypeScript:
+    name: TypeScript
+    description:
+  Ubuntu:
+    name: Ubuntu
+    description:
+  UnityBlender:
+    name: UnityBlender
+    description: 
+  Vim:
+    name: Vim
+    description: 
+  Vite:
+    name: Vite
+    description:
+  Voicemod:
+    name: Voicemod
+    description:
+  Vrchat:
+    name: VRChat
+    description:
+  Vue:
+    name: Vue
+    description:
+  Wallhack:
+    name: Wallhack
+    description:
+  X:
+    name: X(旧Twitter)
+    description:

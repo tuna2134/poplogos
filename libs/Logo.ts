@@ -1,4 +1,5 @@
 import fs, { promises as fsAsync } from "node:fs";
+import YAML from "yaml";
 
 const baseDir = "public/ServiceLogos";
 
@@ -15,14 +16,18 @@ export async function getLogoName(): Promise<string[]> {
 interface LogoData {
   name: string;
   images: string[];
+  path: string;
 }
 
 export async function getAllLogos(): Promise<LogoData[]> {
   const logoNames = await getLogoName();
+  const data = YAML.parse(await fsAsync.readFile("servicelogos.yaml", "utf-8")).logos;
+  console.log(data);
   const logos = logoNames.map(async (name) => {
     const images = await fsAsync.readdir(`public/ServiceLogos/${name}`);
     return {
-      name,
+      name: data[name].name,
+      path: name,
       images,
     };
   });
