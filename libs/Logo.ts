@@ -7,8 +7,7 @@ export async function getLogoName(): Promise<string[]> {
   const logoDir = await fsAsync.readdir(baseDir);
   const logos = logoDir.filter((name) => {
     const stat = fs.statSync(`${baseDir}/${name}`);
-    // console.log(stat.isDirectory());
-    return stat.isDirectory() && !name.startsWith(".git") && name !== "docs";
+    return stat.isDirectory() && !name.startsWith(".git") && name !== "docs" && name !== "ReplaceGuide";
   });
   return logos;
 }
@@ -22,8 +21,8 @@ interface LogoData {
 export async function getAllLogos(): Promise<LogoData[]> {
   const logoNames = await getLogoName();
   const data = YAML.parse(await fsAsync.readFile("servicelogos.yaml", "utf-8")).logos;
-  console.log(data);
   const logos = logoNames.map(async (name) => {
+    console.log(name, data[name]);
     const images = await fsAsync.readdir(`public/ServiceLogos/${name}`);
     return {
       name: data[name].name,

@@ -1,4 +1,8 @@
 logos:
+  404Notfound:
+    name: Not found
+    description: |
+      存在しないね！  
   Angular:
     name: Angular
     description: |
