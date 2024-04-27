@@ -43,6 +43,10 @@ logos:
     name: Crowdstrike
     description: |
       Not found...
+  Discord:
+    name: Discord
+    description: |
+      チャットプラットフォーム
   FORTRAN:
     name: FORTRAN
     description: |
@@ -109,6 +113,10 @@ logos:
       以下略
   Laravel:
     name: Laravel
+    description: |
+      以下略
+  MS-DOS:
+    name: MS-DOS
     description: |
       以下略
   Mui:
